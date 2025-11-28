@@ -9,6 +9,7 @@ typedef struct {
 
 
 char * getFormaInFixa(char *Str);
+char * getFormaPosFixa(char *StrInFixa);
 float getValorPosFixa(char *StrPosFixa);
 
 #endif
