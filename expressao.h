@@ -1,0 +1,14 @@
+#ifndef EXPRESSAO_H
+#define EXPRESSAO_H
+
+typedef struct {
+    char posFixa[512];
+    char inFixa[512];
+    float Valor;
+} CalculadoraExpr;
+
+
+char * getFormaInFixa(char *Str);
+float getValorPosFixa(char *StrPosFixa);
+
+#endif
